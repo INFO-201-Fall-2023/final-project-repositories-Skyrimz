@@ -36,7 +36,7 @@ ui <- navbarPage("Air Quality and Health",
                               h3("State vs. Air pollution"),
                               h4("Expectations:"),
                               p("We wanted to integrate data on different air quality in each state and different chronic diseases in each state to determine the relationship between air quality and human health."),
-                              p("In this step we'll start by showing you different air quality data for each state."),
+                              p("In this step, we'll start by showing you different air quality data for each state."),
                               h4("Analysis:"),
                               p("We found that there was no strong correlation between air pollution in each state, but it was clear from the graph that the air pollution level in California was far higher than that in other states, exceeding 1,000 and approaching 1,500. The second highest was Virginia, which surpassed 725. There are four states with more than 500. The rest are relatively evenly distributed.")
                             ),
@@ -57,7 +57,7 @@ ui <- navbarPage("Air Quality and Health",
                               h3("State vs. Chronic disease"),
                               h4("Expectations:"),
                               p("We wanted to integrate data on different air quality in each state and different chronic diseases in each state to determine the relationship between air quality and human health."),
-                              p("In this step we will show the relationship between state and chronic disease by analyzing the data between the two."),
+                              p("In this step, we will show the relationship between state and chronic disease by analyzing the data between the two."),
                               h4("Analysis:"),
                               p("The bar chart shows that there is no clear relationship between states and rate of chronic disease. From the data chart, we can find that Texas and Kentucky are the highest, nearly 0.2. In all, 14 states exceeded 0.1. Others are relatively evenly distributed below 0.1.")
                             ),
@@ -78,7 +78,8 @@ ui <- navbarPage("Air Quality and Health",
                               h4("Expectations:"),
                               p("We wanted to integrate data on different air quality in each state and different chronic diseases in each state to determine the relationship between air quality and human health."),
                               p("In this step, we will integrate the data from the previous two steps to determine the relationship between air pollution and human health."),
-                              h4("Analysis:")
+                              h4("Analysis:"),
+                              p("We conducted an analysis of the data chart to examine the relationship between air pollution and chronic diseases. The results did not show there is enough evidence for a direct positive or negative correlation between these two variables. However, we observed that in areas with very high levels of air pollution, the prevalence of chronic diseases was not low, and in fact, it was almost always above the average rate.")
                             ),
                             mainPanel(
                               div(style = "overflow-x: scroll;",
